@@ -1,0 +1,29 @@
+/**********************************************
+          PageStrip
+***********************************************/
+
+.page-strip-container {
+  width: 400%;
+  height: 100vh;
+  background: #f5e7e0;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  transition: 2s;
+}
+
+.contact-position  {
+  right: 0%;
+}
+
+.home-position  {
+  right: 100%;
+}
+
+.beer-search-position  {
+  right: 200%;
+}
+
+.beer-locker-position  {
+  right: 300%;
+}

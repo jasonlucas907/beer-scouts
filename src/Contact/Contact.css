@@ -1,0 +1,27 @@
+/**********************************************
+          Contact
+***********************************************/
+
+.contact-page-container {
+  width: 25%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  overflow: hidden;
+}
+
+.contact-page-foreground  {
+  width: 100%;
+  position: absolute;
+  top: 439px;
+  z-index: 10;
+}
+
+.contact-mtn  {
+  width: 100%;
+  position: absolute;
+  top: 450px;
+  left: 0px;
+  z-index: 1;
+}

@@ -1,0 +1,57 @@
+/**********************************************
+          RidgeScout
+***********************************************/
+
+.ridge-scout-container  {
+  width: 310px;
+  height: 700px;
+  position: absolute;
+  top: 280px;
+  left: 0px;
+  z-index: 2;
+  animation-name: RidgeScout;
+  animation-duration: 4s;
+}
+
+@keyframes RidgeScout {
+  0%    { left: -750px;}
+  60%    { left: -750px;}
+  100%  { left: 0px;}
+}
+
+.ridge-scout  {
+  width: 260px;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}
+
+.flag-box {
+	width: 60px;
+	height: 50px;
+	position: relative;
+	left: 218px;
+  top: 54px;
+  transform: rotate(8deg);
+  transform-style: preserve-3d;
+  overflow: hidden;
+}
+
+.flag {
+	width: 90px;
+	height: 35px;
+  background: #c55a3f;
+	position: absolute;
+  top: 0px;
+  left: -44px;
+  transform: rotateY(0deg);
+  -webkit-animation: wave 0.6s ease-in-out infinite alternate;
+  animation: wave 12s ease-in-out infinite alternate;
+
+}
+
+@keyframes wave {
+  0%    { transform: rotateY(0deg);}
+  50%   { transform: rotateY(-55deg);}
+  100%  { transform: rotateY(0deg);}
+}

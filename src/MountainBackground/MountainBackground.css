@@ -1,0 +1,66 @@
+/**********************************************
+          MountainBackground
+***********************************************/
+
+.mountain-background-container  {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.mountain1  {
+  width: 100%;
+  position: absolute;
+  top: 400px;
+  animation-name: mtn1Rise;
+  animation-duration: 2s;
+}
+
+@keyframes mtn1Rise {
+  0%    { top: 600px;}
+  50%    { top: 600px;}
+  100%  { top: 400px;}
+}
+
+.mountain2  {
+  width: 100%;
+  position: absolute;
+  top: 513px;
+  animation-name: mtn2Rise;
+  animation-duration: 2.3s;
+}
+
+@keyframes mtn2Rise {
+  0%    { top: 700px;}
+  60%    { top: 700px;}
+  100%  { top: 513px;}
+}
+
+.mountain3  {
+  width: 100%;
+  position: absolute;
+  top: 526px;
+  animation-name: mtn3Rise;
+  animation-duration: 2.5s;
+}
+
+@keyframes mtn3Rise {
+  0%    { top: 750px;}
+  60%    { top: 750px;}
+  100%  { top: 526px;}
+}
+
+.mountain4  {
+  width: 100%;
+  position: absolute;
+  top: 580px;
+  animation-name: mtn4Rise;
+  animation-duration: 2.8s;
+}
+
+@keyframes mtn4Rise {
+  0%    { top: 790px;}
+  60%    { top: 790px;}
+  100%  { top: 580px;}
+}

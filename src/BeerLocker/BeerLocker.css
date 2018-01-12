@@ -1,0 +1,27 @@
+/**********************************************
+          BeerLocker
+***********************************************/
+
+.beer-locker-page-container {
+  width: 25%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 75%;
+  overflow: hidden;
+}
+
+.beer-locker-page-foreground  {
+  width: 100%;
+  position: absolute;
+  top: 439px;
+  z-index: 10;
+}
+
+.beer-locker-mtn  {
+  width: 100%;
+  position: absolute;
+  top: 450px;
+  left: 0px;
+  z-index: 1;
+}
