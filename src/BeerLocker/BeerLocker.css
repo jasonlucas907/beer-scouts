@@ -4,7 +4,7 @@
 
 .beer-locker-page-container {
   width: 25%;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   top: 0px;
   left: 75%;
@@ -14,14 +14,14 @@
 .beer-locker-page-foreground  {
   width: 100%;
   position: absolute;
-  top: 439px;
+  top: 54%;
   z-index: 10;
 }
 
 .beer-locker-mtn  {
   width: 100%;
   position: absolute;
-  top: 450px;
+  top: 55%;
   left: 0px;
   z-index: 1;
 }

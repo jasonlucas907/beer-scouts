@@ -4,7 +4,7 @@
 
 .beer-search-page-container {
   width: 25%;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   top: 0px;
   left: 50%;
@@ -14,14 +14,14 @@
 .beer-search-page-foreground  {
   width: 100%;
   position: absolute;
-  top: 439px;
+  top: 54%;
   z-index: 10;
 }
 
 .beer-search-mtn  {
   width: 100%;
   position: absolute;
-  top: 450px;
+  top: 56%;
   left: 0px;
   z-index: 1;
 }
