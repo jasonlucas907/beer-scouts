@@ -3,20 +3,20 @@
 ***********************************************/
 
 .ridge-scout-container  {
-  width: 310px;
-  height: 700px;
+  /*width: 310px;*/
+  /*height: 700px;*/
   position: absolute;
-  top: 280px;
-  left: 0px;
+  top: 35%;
+  left: 0%;
   z-index: 2;
   animation-name: RidgeScout;
-  animation-duration: 4s;
+  animation-duration: 3.5s;
 }
 
 @keyframes RidgeScout {
-  0%    { left: -750px;}
-  60%    { left: -750px;}
-  100%  { left: 0px;}
+  0%    { left: -100%;}
+  60%    { left: -100%;}
+  100%  { left: 0%;}
 }
 
 .ridge-scout  {

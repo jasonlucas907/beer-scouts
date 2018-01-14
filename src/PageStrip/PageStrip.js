@@ -17,7 +17,6 @@ const PageStrip = ({ pagePosition }) => {
       < BeerSearch />
       < BeerLocker />
 
-
     </div>
   )
 

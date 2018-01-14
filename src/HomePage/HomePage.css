@@ -4,7 +4,7 @@
 
 .home-page-container {
   width: 25%;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   top: 0px;
   left: 25%;
@@ -14,13 +14,13 @@
 .home-page-foreground  {
   width: 100%;
   position: absolute;
-  top: 439px;
+  top: 55%;
   z-index: 10;
   animation-name: foregroundRise;
   animation-duration: 2s;
 }
 
 @keyframes foregroundRise {
-  0%    { top: -400px;}
-  100%  { top: 439px;}
+  0%    { top: -100%;}
+  100%  { top: 55%;}
 }

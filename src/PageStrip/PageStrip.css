@@ -13,17 +13,21 @@
 }
 
 .contact-position  {
+  top: 0%;
   right: 0%;
 }
 
 .home-position  {
+  top: 0%;
   right: 100%;
 }
 
 .beer-search-position  {
+  top: 0%;
   right: 200%;
 }
 
 .beer-locker-position  {
+  top: 0%;
   right: 300%;
 }
