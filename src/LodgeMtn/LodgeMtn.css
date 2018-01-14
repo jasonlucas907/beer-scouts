@@ -3,26 +3,24 @@
 ***********************************************/
 
 .lodge-mtn-container  {
-  width: 700px;
-  height: 100%;
   position: absolute;
-  top: 0px;
-  right: -12px;
+  top: 0%;
+  right: 700px;
   z-index: 2;
   animation-name: lodgeMtn;
   animation-duration: 3s;
 }
 
 @keyframes lodgeMtn {
-  0%    { top: 1000px;}
-  60%    { top: 1000px;}
-  100%  { top: 0px;}
+  0%    { top: 100%;}
+  60%    { top: 100%;}
+  100%  { top: 0%;}
 }
 
 .lodge-mtn  {
-  width: 100%;
+  width: 700px;
   position: absolute;
-  top: 378px;
+  top: 217px;
   left: 0px;
   z-index: 1;
 }

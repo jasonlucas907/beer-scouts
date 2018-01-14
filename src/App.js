@@ -14,7 +14,7 @@ class App extends Component {
 
   pageChange = (page) => {
     this.setState({
-      pagePosition: page
+      pagePosition: `page-strip-container ${page}-position`
     })
   }
 

@@ -8,10 +8,10 @@ const Header = ({ pageChange }) => {
   return (
     <div className='header-container'>
 
-      <p className='navigation' onClick={ () => pageChange('page-strip-container contact-position') }>CONTACT</p>
-      <p className='navigation' onClick={ () => pageChange('page-strip-container beer-locker-position') }>BEER LOCKER</p>
-      <p className='navigation' onClick={ () => pageChange('page-strip-container beer-search-position') }>SEARCH BEER</p>
-      <p className='navigation' onClick={ () => pageChange('page-strip-container home-position') }>HOME</p>
+      <p className='navigation' onClick={ () => pageChange('contact') }>CONTACT</p>
+      <p className='navigation' onClick={ () => pageChange('beer-locker') }>BEER LOCKER</p>
+      <p className='navigation' onClick={ () => pageChange('beer-search') }>SEARCH BEER</p>
+      <p className='navigation' onClick={ () => pageChange('home') }>HOME</p>
 
     </div>
   )
