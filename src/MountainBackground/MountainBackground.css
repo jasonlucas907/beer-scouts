@@ -64,3 +64,23 @@
   60%    { top: 90%;}
   100%  { top: 69%;}
 }
+
+.home-page-birds  {
+  width: 62px;
+  position: absolute;
+  top: 60%;
+  opacity: 0;
+  animation-name: flyingbird1;
+  animation-duration: 20s;
+}
+
+@keyframes flyingbird1 {
+  0%    { left: 110%;
+          opacity: 1;
+        }
+  99%   { opacity: 1;
+        }
+  100%  { left: -20%;
+          opacity: 0;
+        }
+}
