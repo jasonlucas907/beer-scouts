@@ -2,7 +2,7 @@ import React from 'react';
 import Clouds from '../Clouds/Clouds.js';
 import beerSearchForeground from '../assets/beer-search-foreground.png';
 import beerSearchMtn from '../assets/contact-mtn.png';
-import stars from '../assets/stars2.png';
+import stars from '../assets/stars.png';
 import './BeerSearch.css';
 
 
@@ -15,8 +15,8 @@ const BeerSearch = ({ }) => {
       <div className='night'>
         <img className='stars' src={ stars } alt='stary sky'/>
       </div>
-      < Clouds />
       <img className='beer-search-mtn' src={beerSearchMtn} alt='mountain landscape'/>
+      < Clouds />
       <img className='beer-search-page-foreground' src={beerSearchForeground} alt='rocky landscape'/>
 
     </div>

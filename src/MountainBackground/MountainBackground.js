@@ -6,7 +6,7 @@ import mountain3 from '../assets/mtn3.png';
 import mountain4 from '../assets/mtn4.png';
 import birds1 from '../assets/birds2.gif';
 import sun from '../assets/sun.png';
-import stars from '../assets/stars2.png';
+import Stars from '../Stars/Stars.js';
 
 const MountainBackground = ({ }) => {
 
@@ -14,9 +14,7 @@ const MountainBackground = ({ }) => {
   return (
     <div className='mountain-background-container'>
 
-      <div className='night'>
-        <img className='stars' src={ stars } alt='stary sky'/>
-      </div>
+      < Stars />
       <img className='sun' src={ sun } alt='sun image'/>
       <img className='mountain1' src={ mountain1 } alt='outline image of mountain landscape'/>
       <img className='mountain2' src={ mountain2 } alt='outline image of mountain landscape'/>

@@ -24,3 +24,18 @@
   0%    { top: -100%;}
   100%  { top: 55%;}
 }
+
+.homepage-logo-container  {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -50px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-page-logo {
+  width: 42%;
+}
