@@ -2,23 +2,23 @@
           BeerLocker
 ***********************************************/
 
-.beer-locker-page-container {
-  width: 25%;
+.breweries-page-container {
+  width: 20%;
   height: 100%;
   position: absolute;
   top: 0px;
-  left: 75%;
+  left: 60%;
   overflow: hidden;
 }
 
-.beer-locker-page-foreground  {
+.breweries-page-foreground  {
   width: 100%;
   position: absolute;
   top: 54%;
   z-index: 10;
 }
 
-.beer-locker-mtn  {
+.breweries-mtn  {
   width: 100%;
   position: absolute;
   top: 55%;

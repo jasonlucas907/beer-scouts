@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PageWindow from './PageWindow/PageWindow.js';
 import Header from './Header/Header.js';
+import key from './key.js'
 import './App.css';
 
 class App extends Component {
@@ -8,9 +9,16 @@ class App extends Component {
   constructor() {
       super();
       this.state = {
-        pagePosition: 'page-strip-container home-position'
+        pagePosition: 'page-strip-container home-position',
+        featured: null
       };
     }
+
+  // componentDidMount = () => {
+  //   this.getFeatured()
+  // }
+
+
 
   pageChange = (page) => {
     this.setState({

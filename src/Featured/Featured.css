@@ -1,24 +1,24 @@
 /**********************************************
-          Contact
+          Featured
 ***********************************************/
 
-.contact-page-container {
+.featured-page-container {
   width: 20%;
   height: 100%;
   position: absolute;
   top: 0px;
-  left: 0%;
+  left: 80%;
   overflow: hidden;
 }
 
-.contact-page-foreground  {
+.featured-page-foreground  {
   width: 100%;
   position: absolute;
   top: 54%;
   z-index: 10;
 }
 
-.contact-mtn  {
+.featured-mtn  {
   width: 100%;
   position: absolute;
   top: 55%;

@@ -3,7 +3,7 @@
 ***********************************************/
 
 .page-strip-container {
-  width: 400%;
+  width: 500%;
   height: 100vh;
   background: #f5e7e0;
   display: flex;
@@ -30,4 +30,9 @@
 .breweries-position  {
   top: 0%;
   right: 300%;
+}
+
+.featured-position  {
+  top: 0%;
+  right: 400%;
 }

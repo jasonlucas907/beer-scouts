@@ -10,14 +10,14 @@ const Breweries = ({ }) => {
 
 
   return (
-    <div className='beer-locker-page-container'>
+    <div className='breweries-page-container'>
 
       <div className='night'>
         <img className='stars' src={ stars } alt='stary sky'/>
       </div>
-      <img className='beer-locker-mtn' src={beerLockerMtn} alt='mountain landscape'/>
+      <img className='breweries-mtn' src={beerLockerMtn} alt='mountain landscape'/>
       < Clouds />
-      <img className='beer-locker-page-foreground' src={beerLockerForeground} alt='rocky landscape'/>
+      <img className='breweries-page-foreground' src={beerLockerForeground} alt='rocky landscape'/>
 
     </div>
   )
