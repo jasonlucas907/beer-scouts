@@ -3,10 +3,10 @@ import Clouds from '../Clouds/Clouds.js';
 import beerLockerForeground from '../assets/beer-locker-foreground.png';
 import beerLockerMtn from '../assets/beer-locker-mtn.png';
 import stars from '../assets/stars.png';
-import './BeerLocker.css';
+import './Breweries.css';
 
 
-const BeerLocker = ({ }) => {
+const Breweries = ({ }) => {
 
 
   return (
@@ -24,8 +24,8 @@ const BeerLocker = ({ }) => {
 
 }
 
-BeerLocker.propTypes = {
+Breweries.propTypes = {
 
 }
 
-export default BeerLocker;
+export default Breweries;

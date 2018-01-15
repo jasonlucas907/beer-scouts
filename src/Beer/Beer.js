@@ -3,10 +3,10 @@ import Clouds from '../Clouds/Clouds.js';
 import beerSearchForeground from '../assets/beer-search-foreground.png';
 import beerSearchMtn from '../assets/contact-mtn.png';
 import stars from '../assets/stars.png';
-import './BeerSearch.css';
+import './Beer.css';
 
 
-const BeerSearch = ({ }) => {
+const Beer = ({ }) => {
 
 
   return (
@@ -24,8 +24,8 @@ const BeerSearch = ({ }) => {
 
 }
 
-BeerSearch.propTypes = {
+Beer.propTypes = {
 
 }
 
-export default BeerSearch;
+export default Beer;

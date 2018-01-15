@@ -1,8 +1,8 @@
 import React from 'react';
 import HomePage from '../HomePage/HomePage.js';
 import Contact from '../Contact/Contact.js';
-import BeerSearch from '../BeerSearch/BeerSearch.js';
-import BeerLocker from '../BeerLocker/BeerLocker.js';
+import Beer from '../Beer/Beer.js';
+import Breweries from '../Breweries/Breweries.js';
 import './PageStrip.css';
 
 
@@ -14,8 +14,8 @@ const PageStrip = ({ pagePosition }) => {
 
       < Contact />
       < HomePage />
-      < BeerSearch />
-      < BeerLocker />
+      < Beer />
+      < Breweries />
 
     </div>
   )
