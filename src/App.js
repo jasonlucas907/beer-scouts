@@ -10,19 +10,16 @@ class App extends Component {
       super();
       this.state = {
         pagePosition: 'page-strip-container home-position',
-        featured: null
+        currentPage: 'home'
       };
     }
-
-  // componentDidMount = () => {
-  //   this.getFeatured()
-  // }
 
 
 
   pageChange = (page) => {
     this.setState({
-      pagePosition: `page-strip-container ${page}-position`
+      pagePosition: `page-strip-container ${page}-position`,
+      currentPage: page
     })
   }
 
@@ -36,6 +33,7 @@ class App extends Component {
         />
         < PageWindow
           pagePosition={this.state.pagePosition}
+          currentPage={this.state.currentPage}
         />
 
       </div>

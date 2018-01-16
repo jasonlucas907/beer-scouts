@@ -7,7 +7,7 @@ import Featured from '../Featured/Featured.js';
 import './PageStrip.css';
 
 
-const PageStrip = ({ pagePosition }) => {
+const PageStrip = ({ pagePosition, currentPage }) => {
 
 
   return (
@@ -17,7 +17,9 @@ const PageStrip = ({ pagePosition }) => {
       < HomePage />
       < Beer />
       < Breweries />
-      < Featured />
+      < Featured
+        currentPage={ currentPage }
+      />
 
     </div>
   )

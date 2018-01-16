@@ -3,7 +3,7 @@ import PageStrip from '../PageStrip/PageStrip.js'
 import './PageWindow.css';
 
 
-const PageWindow = ({ pagePosition }) => {
+const PageWindow = ({ pagePosition, currentPage }) => {
 
 
   return (
@@ -11,6 +11,7 @@ const PageWindow = ({ pagePosition }) => {
 
       < PageStrip
         pagePosition={ pagePosition }
+        currentPage={ currentPage }
       />
 
     </div>

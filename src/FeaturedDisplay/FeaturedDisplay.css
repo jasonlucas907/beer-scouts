@@ -1,0 +1,38 @@
+/**********************************************
+          FeaturedDisplay
+***********************************************/
+
+.featured-display-page-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 130px;
+  left: 0%;
+  z-index: 9;
+  overflow: hidden;
+  animation-name: billboardRise;
+  animation-duration: 5s;
+}
+
+@keyframes billboardRise {
+  0%    { top: 1000px;}
+  100%  { top: 130px;}
+}
+
+.billboard-container  {
+  margin: auto;
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.billboard-base {
+  width: 100%;
+}
+
+.billboard  {
+  width: 100%;
+  height: 400px;
+  background: white;
+  border: solid 4px #2c2c2d;
+}
